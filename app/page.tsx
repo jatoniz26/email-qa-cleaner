@@ -44,8 +44,8 @@ export default function EmailQAPortal() {
     <div className="min-h-screen bg-[#0f172a] text-slate-200 p-8 font-sans">
       <header className="max-w-7xl mx-auto flex justify-between items-center mb-10">
         <div>
-          <h1 className="text-3xl font-black text-[#22d3ee] flex items-center gap-2 tracking-tighter">🚀 EMAIL QA PORTAL</h1>
-          <p className="text-slate-400 text-xs font-medium uppercase tracking-widest text-emerald-400">Status: System Online</p>
+          <h1 className="text-3xl font-black text-[#22d3ee] flex items-center gap-2 tracking-tighter">🚀 EMAIL QA CODE CLEANER</h1>
+          <p className="text-slate-400 text-xs font-medium uppercase tracking-widest text-emerald-400">Full Audit Suite:TGhost Tables, Margin attributes, Preheader Fix, Target blank</p>
         </div>
         <button onClick={() => { setInputCode(''); setOutputCode(''); setResumen([]); }} className="bg-slate-800 hover:bg-slate-700 text-slate-300 px-4 py-2 rounded-lg text-xs font-bold border border-slate-700">Clear Results</button>
       </header>
